@@ -37,11 +37,29 @@ astrocare-remote-health/
 
 ---
 
+## Tecnologias
+
+### Frontend
+- React 19
+- TypeScript
+- Vite
+- Fetch API
+
+### Backend
+- Java 17
+- Quarkus 3.34.6
+- Oracle Database (FIAP)
+- Maven 3.15.0
+- Gson 2.13.1
+- Jackson (quarkus-rest-jackson)
+
+---
+
 ## Como Rodar
 
 ### Pre-requisitos
 
-- Java JDK 21
+- Java JDK 17
 - Maven 3.9+
 - Node.js 18+
 - Acesso ao Oracle FIAP (rede FIAP ou VPN)
