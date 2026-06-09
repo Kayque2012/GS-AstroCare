@@ -102,34 +102,3 @@ Apos concluir, o site no Vercel estara conectado ao seu backend local.
 
 > Ao reiniciar o computador ou encerrar o tunnel, rode o script novamente — a URL muda
 > a cada nova sessao do tunnel.
-
----
-
-### 3. Frontend local (opcional)
-
-Se preferir rodar o frontend localmente sem o Vercel:
-
-```powershell
-cd astrocare-frontend
-npm install
-npm run dev
-```
-
-Acesse em `http://localhost:5173`. Neste modo o frontend ja aponta para `localhost:8080`
-sem precisar do tunnel.
-
----
-
-## Variaveis de Ambiente
-
-O frontend usa a variavel `VITE_API_URL` para saber onde esta o backend.
-
-| Variavel | Padrao | Descricao |
-|---|---|---|
-| `VITE_API_URL` | `http://localhost:8080` | URL base da API |
-
-Copie `.env.example` para `.env` se quiser customizar localmente:
-
-```powershell
-cp astrocare-frontend/.env.example astrocare-frontend/.env
-```

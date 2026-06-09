@@ -2,7 +2,7 @@
 
 Interface web do sistema AstroCare Remote Health, desenvolvida com React + TypeScript + Vite.
 
-**Acesse o sistema:** https://astrocare-frontend.vercel.app
+**Acesse o sistema:** https://astrocare-frontend.vercel.app (Lembrando que é necessário o CloudFlare instalado para rodar o backend local corretamente)
 
 ---
 
