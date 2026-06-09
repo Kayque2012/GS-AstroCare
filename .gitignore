@@ -1,0 +1,16 @@
+# Frontend
+astrocare-frontend/node_modules/
+astrocare-frontend/dist/
+astrocare-frontend/.env
+astrocare-frontend/.env.local
+
+# Backend
+astrocare-backend/target/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
