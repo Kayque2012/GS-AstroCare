@@ -2,7 +2,7 @@
 
 Interface web do sistema AstroCare Remote Health, desenvolvida com React + TypeScript + Vite.
 
-**Deploy:** https://astrocare-frontend.vercel.app
+**Acesse o sistema:** https://astrocare-frontend.vercel.app
 
 ---
 
@@ -21,34 +21,15 @@ Interface web do sistema AstroCare Remote Health, desenvolvida com React + TypeS
 src/
   components/   # Componentes reutilizaveis (Sidebar)
   pages/        # Dashboard, Pacientes, Medicos, Consultas
-  services/     # api.ts — chamadas ao backend
+  services/     # api.ts - chamadas ao backend
   types/        # Tipos TypeScript (Paciente, Medico, Consulta)
 ```
 
 ---
 
-## Como Rodar Localmente
+## Como Usar
 
-```powershell
-npm install
-npm run dev
-```
+O frontend esta hospedado no Vercel e pode ser acessado diretamente pelo link acima.
 
-Acesse em `http://localhost:5173`. O backend deve estar rodando em `http://localhost:8080`.
-
----
-
-## Variaveis de Ambiente
-
-| Variavel | Padrao | Descricao |
-|---|---|---|
-| `VITE_API_URL` | `http://localhost:8080` | URL base da API |
-
-Crie um arquivo `.env` baseado no `.env.example` para customizar.
-
----
-
-## Conexao com Backend no Vercel
-
-O Vercel serve o frontend via HTTPS. Para conectar ao backend local e necessario
-usar um tunnel HTTPS — veja as instrucoes no README principal do projeto.
+Para que os dados carreguem, o backend precisa estar rodando localmente com o tunnel ativo.
+Siga as instrucoes no README principal do projeto.
