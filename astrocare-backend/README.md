@@ -20,10 +20,12 @@ API Restful desenvolvida com Java + Quarkus + Oracle DB.
 
 ## 🚀 Tecnologias
 
-- Java 21
+- Java 17
 - Quarkus 3.34.6
 - Oracle Database (FIAP)
-- Maven
+- Maven 3.15.0
+- Gson 2.13.1
+- Jackson (quarkus-rest-jackson)
 
 ---
 
